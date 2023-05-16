@@ -1,0 +1,259 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.16)  16 MAY 2023 14:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./document.tex
+(document.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/04/04 v3.5 ragged2e Package
+\CenteringLeftskip=\skip50
+\RaggedLeftLeftskip=\skip51
+\RaggedRightLeftskip=\skip52
+\CenteringRightskip=\skip53
+\RaggedLeftRightskip=\skip54
+\RaggedRightRightskip=\skip55
+\CenteringParfillskip=\skip56
+\RaggedLeftParfillskip=\skip57
+\RaggedRightParfillskip=\skip58
+\JustifyingParfillskip=\skip59
+\CenteringParindent=\skip60
+\RaggedLeftParindent=\skip61
+\RaggedRightParindent=\skip62
+\JustifyingParindent=\skip63
+)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/03/28 3.87 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen141
+\l@unhyphenated=\language79
+
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\LEGION\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks16
+\es@quotdepth=\count195
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)
+(C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\LEGION\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count196
+)
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
+\l__pdf_internal_box=\box51
+)
+(document.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+)
+\openout1 = `document.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 19.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+
+Overfull \hbox (11.05864pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/9 vices, as well as REST-FUL web ser-vices or HTTP-based ser-vices
+.(SoapUI,s.f) 
+ []
+
+[1
+
+{C:/Users/LEGION/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+Overfull \hbox (0.75056pt too wide) in paragraph at lines 92--93
+[]\OT1/cmr/m/n/10 It sup-ports all stan-dard pro-to-cols and tech-nolo-gies suc
+h as HTTP, HTTPS,
+ []
+
+[3] [4] [5]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 178.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 178.
+
+Underfull \hbox (badness 3138) in paragraph at lines 184--185
+\OT1/cmr/m/n/10 ing with Soa-pUI. (n.d.). Re-trieved from $\OT1/cmtt/m/n/10 htt
+ps : / / www . soapui . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+\OT1/cmr/m/n/10 Stack. Re-trieved from $\OT1/cmtt/m/n/10 https : / / www . brow
+serstack . com / guide /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]\OT1/cmr/m/n/10 T. (n.d.). \OT1/cmr/m/it/10 Cy-press: The fu-ture of au-toma-
+tion test-ing\OT1/cmr/m/n/10 . Testrig.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\OT1/cmr/m/n/10 Re-trieved from $\OT1/cmtt/m/n/10 https : / / www . testrigtech
+nologies . com /
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 193--194
+\OT1/cmr/m/it/10 min-u-tos\OT1/cmr/m/n/10 . San-tanderGTO. Re-trieved from $\OT
+1/cmtt/m/n/10 https : / / santandergto . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\OT1/cmtt/m/n/10 cypress-[]instala-[]y-[]ejecuta-[]tu-[]primera-[]prueba-[]e2e-
+[]5-[]minutos /
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 196--197
+[]\OT1/cmr/m/n/10 Hamilton, T. (Jan-uary 3, 2020). \OT1/cmr/m/it/10 What is Soa
+-pUI? In-tro-duc-tion to
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 196--197
+\OT1/cmr/m/it/10 Soa-pUI Test-ing\OT1/cmr/m/n/10 . Guru99. Re-trieved from $\OT
+1/cmtt/m/n/10 https : / / www . guru99 . com /
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 199--200
+[]\OT1/cmr/m/n/10 Nicolas Cordero (March 13, 2018). \OT1/cmr/m/it/10 Cy-press H
+eadd-less\OT1/cmr/m/n/10 . Paradigma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+\OT1/cmr/m/n/10 Dig-i-tal. Re-trieved from $\OT1/cmtt/m/n/10 https : / / www . 
+paradigmadigital . com / dev /
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 202--203
+[]\OT1/cmr/m/n/10 SoapUi | Marco de De-sar-rollo de la Junta de An-daluc^^S^^Pa
+. (n.d.).
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 205--206
+[]\OT1/cmr/m/n/10 SoapUI Tu-to-rial - ja-vat-point. (n.d.). Re-trieved from $\O
+T1/cmtt/m/n/10 https : / / www .
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 209--210
+[]\OT1/cmr/m/n/10 Global, I. (Febru-ary 3, 2023). \OT1/cmr/m/it/10 What is Cy-p
+ress?\OT1/cmr/m/n/10 . Cy-press. Re-
+ []
+
+[6] [7] (document.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+) ) 
+Here is how much of TeX's memory you used:
+ 2494 strings out of 476331
+ 41726 string characters out of 5797577
+ 1859660 words of memory out of 5000000
+ 22954 multiletter control sequences out of 15000+600000
+ 518345 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,7n,52p,548b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\LEGION\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on document.pdf (7 pages, 173631 bytes).
+PDF statistics:
+ 81 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
