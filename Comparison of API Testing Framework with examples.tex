@@ -1,0 +1,213 @@
+\documentclass{article}
+\usepackage{ragged2e}
+\usepackage[spanish,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[numbers]{natbib}
+\usepackage{url}
+
+\begin{document}
+	
+	\title{Comparison of API Testing Frameworks with examples}
+	\author{
+	\textit{Moisés Alessandro Corrales Solis} \and 
+	\textit{Gustavo Alonso Valle Bustamante} \and 
+	\textit{Renato Eduardo Chambilla Martinez} \and 
+	\textit{Farley Eduardo Viveros Blanco}
+}
+	\date{\today}
+	
+	\maketitle
+	\selectlanguage{spanish}
+	\begin{abstract}
+		\begin{justify}
+		La prueba de API es una práctica que prueba el rendimiento,la confiabilidad, la seguridad y la funcionalidad de una API directamente a través de varias herramientas.Las pruebas de API incluyen servicios web SOAP y API REST con cargas útiles de mensajes XML o JSON.Es la forma mas adecuada de automatización de pruebas basadas en UI en términos de complejidad del sistema,ciclos de lanzamiento cortos y bucles de retroalimentación rápidos.(Prasad Acharya,2023)
+		
+		SoapUI es una herramienta para probar servicios web,estos pueden ser los servicios web SOAP, así como los servicios web RESTFUL o los servicios basados en HTTP.(SoapUI,s.f)
+		
+		Cypress es un framework de automatización de pruebas end-to-end (e2e) basado puramente en JavaScript y creado para la web moderna. Su objetivo es abordar los puntos débiles que enfrentan los desarrolladores o los ingenieros de control de calidad al probar una aplicación.(Ithreex Global,2023)
+		\end{justify}
+	\end{abstract}
+	
+	
+	
+	\selectlanguage{english}
+	\begin{abstract}
+		\begin{justify}
+			API testing is a practice that tests the performance, reliability, security, and functionality of an API directly through various tools. API testing includes SOAP web services and REST APIs with XML or JSON message payloads. It’s  the most suitable form of UI-based test automation in terms of system complexity, short release cycles and fast feedback loops. (Prasad Acharya, 2023)
+			
+			SoapUI is a tool for testing web services, they can be SOAP web services, as well as RESTFUL web services or HTTP-based services.(SoapUI,s.f)
+			
+			Cypress is a purely JavaScript-based end-to-end (e2e) test automation framework built for the modern web. Its goal is to address the pain points that developers or QA engineers face when testing an application. (Ithreex Global, 2023)
+			
+		\end{justify}
+	\end{abstract}
+	
+	
+	
+	
+	
+	\section*{Introduction}
+SOAP UI is the leading open source cross-platform API testing tool. It allows testers to execute automated functional, regression, compliance, and load tests on different web APIs. SOAP UI supports all the standard protocols and technologies to test all kinds of APIs. Its interface is simple, enabling both technical and non-technical users to use it seamlessly. (Hamilton, 2020)
+
+On the other hand, Cypress is an all-in-one framework that includes libraries of assertions, mocks, and automatic end-to-end tests without using Selenium. Cypress runs a Node process that constantly communicates, synchronizes, and executes tasks, accessing both the front-end and back-end of the application and responding to events in real-time. (Cordero, 2018)
+
+Some of the benefits of SOAP UI include performing functional testing within minutes, predicting errors to avoid losses, understanding workflow, and being a good option for performance testing.
+
+Meanwhile, some of the benefits of Cypress include its ease of use, being an intuitive and easy-to-use platform that allows developers to create and manage websites and mobile applications efficiently. It also integrates easily with other tools and platforms, allowing developers to work with a wide variety of technologies and services. Additionally, Cypress is scalable and can handle large amounts of traffic and content seamlessly, making it an ideal choice for high-traffic websites and mobile applications.
+	
+	\section{Development}
+	
+	\subsection{Soap UI}
+	
+	\textbf{Main Functionalities}
+	
+	\begin{itemize}
+		\item SOAP 1.1 and 1.2 support.
+		\item Incorporates a SOAP monitor to capture and analyze traffic.
+		\item Inspects WSDL and REST Web Services (both WADL and WADLess) and displays them hierarchically.
+		\item Automatically generates tests and SOAP requests for the operations defined in the WSDL or WADL descriptor.
+		\item Allows to verify the conformity of a WSDL according to WS-I* standards.
+		\item Optionally, Groovy scripting can be used to make test behavior dynamic.
+		\item Supports several authentication methods: Basic, Digest, WS-Security and NTLM Web Service.
+		\item Supports different attachment technologies: MTOM, SOAP with Attachments, Inline files for WSDL and MIME Attachments for REST.
+		\item Message content verification with Xpath and Xquery.
+		\item Versatility in the configuration of the load test, being able to indicate the limit (in time or requests), the number of attack threads, the HTTP method of the request (POST, GET, etc.).
+		\item Allows to expose simulation Web Services (or mocking) with customizable response content. (SoapUi | Marco de Desarrollo de la Junta de Andalucía, s. f.)
+	\end{itemize}
+	
+	\textbf{Functional Tests}
+	
+	\begin{itemize}
+		\item Unit test: validates that each Web Service operation works as specified.
+		\item Compatibility testing: validates that the result returned by the Web Service is compatible with its definition.
+		\item Process testing: validates that a sequence of Web Service invocations executes a required business process.
+		\item Data driven testing: validates that any of the above works as required by input data from external sources (e.g., a database or another Web service). (SoapUi | Marco de Desarrollo de la Junta de Andalucía, s. f.)
+	\end{itemize}
+	
+	\textbf{Advantages}
+	
+	\begin{itemize}
+		\item It provides a simple and user-friendly Graphical User Interface (GUI).
+		\item Cross-platform desktop-based application.
+		\item It supports all standard protocols and technologies such as HTTP, HTTPS, AMF, JDBC, SOAP, WSDL, etc.
+		\item SoapUI costs less than all other test tools available in the market.
+		\item It is also used as message broadcasting.
+		\item It provides a fast and well-organized framework that generates lots of web services tests.
+		\item It creates mocks where testers can test real applications.
+		\item It supports drag and drop features to access script development.
+		\item Transferring data from one response or source to different API calls without manual interaction in the SoapUI tool.
+		\item It facilitates tester and developer teams to work together.
+		\item SOAPUI tool provides the facility to get data from various sources of web service without developing any code. (SoapUI Tutorial - javatpoint, s. f.)
+	\end{itemize}
+	
+	
+	\textbf{Disadvantages}
+	
+	\begin{itemize}
+		\item Security testing requires enhancements.
+		\item The Mock response module should be more enhanced and simplified.
+		\item It takes longer to request big data and dual tasks to test web services. (SoapUI Tutorial - javatpoint, s. f.)
+	\end{itemize}
+	
+	
+	
+	
+	\subsection{Cypress}
+	
+	\textbf{Main Functionalities}
+	
+	\begin{itemize}
+		\item Time Travel: Cypress can take snapshots as the test runs, and to demonstrate this, one can hover over the commands present in the Cypress Test Runner command log to see what happened precisely at each step.
+		
+		\item Debugging: No need to waste time figuring out why the test failed; instead, you can debug directly from developer tools that make spotting, reading, and stack tracing errors lightning fast.
+		\item Consistent Results: Cypress tests runs directly on the browser. Therefore test results are quick, flake-free, and consistent.
+		\item Test Runner: You can automatically run and see how your test work visually using Cypress Test Runner. You can create, view, and search test files using the runner. Also, you can switch and execute tests on different browsers from the Cypress runner interface. 
+		\item Record Test: Cypress Studio lets you write automated tests with minimal coding by recording your interaction with the application under test. It generates commands and assertions quickly.
+		\item Cloud Testing: You can run your test on BrowserStack, Sauce Labs, pCloudy, LambdaTest, and many other cloud tools to extend the testing coverage and the velocity of test execution. 
+		\item Plugin Support: Cypress Plugins enable you to tap into, modify, or extend the internal behavior of Cypress. There are hundreds of plugins available for free, which you can easily install and use with Cypress.
+		(ProgramBuzz, 2022)
+	\end{itemize}
+	
+	\textbf{Functional Tests}
+	
+	\begin{itemize}
+		\item Integration Testing: Cypress can conduct integration tests by interacting with multiple components or systems within a web application.
+		\item Regression Testing: Cypress is suitable for performing regression tests, which involve retesting existing features to ensure they continue to work correctly after making changes to the code or user interface.
+		\item Performance Testing: Cypress can also be used for performance testing, such as measuring page load time, application response speed, or API request performance.
+	\end{itemize}
+	
+	\textbf{Advantages}
+	
+	\begin{itemize}
+		\item Cypress framework captures snapshots at the time of test execution. This allows QAs or developers to hover over a specific command in the Command Log to see exactly what happened at that particular step.
+		\item One doesn’t need to add explicit or implicit wait commands in test scripts. Cypress waits automatically for commands and assertions.
+		\item Developers or QAs can use Spies, Stubs, and Clocks to verify and control the behavior of server responses, functions, or timers.
+		\item The automatic scrolling operation ensures that an element is in view before performing any action (for example Clicking on a button).
+		\item Earlier Cypress supported only Chrome testing. However, with recent updates, Cypress now provides support for Firefox and Edge browsers.
+		\item As the programmer writes commands, Cypress executes them in real-time, providing visual feedback as they run.
+		\item Cypress carries excellent documentation.
+		(Jash Unadkat, 2023)
+	\end{itemize}
+	
+	
+	\textbf{Disadvantages}
+	
+	\begin{itemize}
+		\item Cypress is not as widely used as some of the other options available, so there may be less support available when you need it.
+		\item It can be flaky, meaning tests can sometimes randomly fail for no apparent reason.
+		\item It is currently only available for JavaScript projects. If you’re using a language that Cypress doesn’t yet support, you may have to look for an alternative.
+		(Testrig, s. f.).
+	\end{itemize}
+	
+	
+	\section{Conclusions}
+	\begin{itemize}
+		\item As a conclusion, SoapUI and CyberPress are different tools used for different purposes in the IT field. SoapUI is a web services testing tool, while CyberPress is a digital content management platform.
+		\item The choice between CyberPress and SoapUI will depend on your specific needs and goals. If you are interested in website creation and management, CyberPress is an excellent choice. On the other hand, if your main focus is on testing web services, SoapUI is the more suitable tool.
+	\end{itemize}
+	
+	\section{Recommendations}
+	\begin{itemize}
+		\item When choosing an API testing tool is important to consider how each of the different options available in the market might be more suitable for certain purposes. The best API testing tool will always be the one that better fulfills the organization's or project's needs.
+		\item CyberPress and SoapUI are powerful tools, and taking the time to learn and explore all of their features will allow you to take full advantage of their potential.
+	\end{itemize}
+	
+	
+	\begin{thebibliography}{9}
+			\bibitem[Acharya, 2023]{acharya2023}
+			Acharya, D.P. (March 31, 2023). \textit{The 10 best API development and testing tools}. Geekflare. Retrieved from \url{https://geekflare.com/es/api-tools/}
+			
+			\bibitem[Alirio, 2022]{alirio2022}
+			Alirio. (April 20, 2022). \textit{Features of Cypress Tool}. ProgramsBuzz. Retrieved from \url{https://www.programsbuzz.com/article/features-cypress-tool}
+			
+			\bibitem[An Introduction to API Testing with SoapUI]{soapui-intro}
+			An Introduction to API Testing with SoapUI. (n.d.). Retrieved from \url{https://www.soapui.org/getting-started/introduction/}
+			
+			\bibitem[Jash Unadkat, 2023]{jash2023}
+			Jash Unadkat. (February 14, 2023). \textit{Advantages of Cypress}. BrowserStack. Retrieved from \url{https://www.browserstack.com/guide/cypress-vs-selenium}
+			
+			\bibitem[T., n.d.]{testrig}
+			T. (n.d.). \textit{Cypress: The future of automation testing}. Testrig. Retrieved from \url{https://www.testrigtechnologies.com/cypress-the-future-of-automation-testing/}
+			
+			\bibitem[C., 2020]{santandergto}
+			C. (May 5, 2020). \textit{Cypress: instala y ejecuta tu primera prueba e2e en 5 minutos}. SantanderGTO. Retrieved from \url{https://santandergto.com/cypress-instala-y-ejecuta-tu-primera-prueba-e2e-5-minutos/#Ejemplo}
+			
+			\bibitem[Hamilton, 2020]{hamilton2020}
+			Hamilton, T. (January 3, 2020). \textit{What is SoapUI? Introduction to SoapUI Testing}. Guru99. Retrieved from \url{https://www.guru99.com/introduction-to-soapui.html}
+			
+			\bibitem[Nicolas Cordero, 2018]{cordero2018}
+			Nicolas Cordero (March 13, 2018). \textit{Cypress Headdless}. Paradigma Digital. Retrieved from \url{https://www.paradigmadigital.com/dev/cypress-un-framework-de-pruebas-todo-en-uno/}
+			
+			\bibitem[SoapUi | Marco de Desarrollo de la Junta de Andalucía, n.d.]{soapui-juntaandalucia}
+			SoapUi | Marco de Desarrollo de la Junta de Andalucía. (n.d.). Retrieved from \url{https://www.juntadeandalucia.es/servicios/madeja/contenido/recurso/209}
+			
+			\bibitem[SoapUI Tutorial - javatpoint, n.d.]{javatpoint-soapui}
+			SoapUI Tutorial - javatpoint. (n.d.). Retrieved from \url{https://www.javatpoint.com/soapui}
+			
+		
+			\bibitem[Global, 2023]{ithreexglobal2023}
+			Global, I. (February 3, 2023). \textit{What is Cypress?}. Cypress. Retrieved from \url{https://es.linkedin.com/pulse/cypress-ithreexglobal?trk=organization_guest_main-feed-card_feed-article-content}
+			
+	\end{thebibliography}
+	
+\end{document}
